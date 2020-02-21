@@ -1,0 +1,4 @@
+CoenraadS.bracket-pair-colorizer-2
+eriklynd.json-tools
+k--kato.intellij-idea-keybindings
+PKief.material-icon-theme

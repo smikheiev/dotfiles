@@ -1,8 +1,8 @@
 #!/bin/bash
 
-source $DOTFILES_SCRIPTS_DIR/helpers/dir.sh
-source $DOTFILES_SCRIPTS_DIR/helpers/echo.sh
-source $DOTFILES_SCRIPTS_DIR/helpers/is_installed.sh
+source $DOTFILES_SCRIPTS/helpers/dir.sh
+source $DOTFILES_SCRIPTS/helpers/echo.sh
+source $DOTFILES_SCRIPTS/helpers/is_installed.sh
 
 NVM="nvm"
 NVM_DIR=~/.nvm

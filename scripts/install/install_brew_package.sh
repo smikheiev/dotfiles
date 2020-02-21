@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source $DOTFILES_SCRIPTS_DIR/helpers/echo.sh
-source $DOTFILES_SCRIPTS_DIR/helpers/is_installed.sh
+source $DOTFILES_SCRIPTS/helpers/echo.sh
+source $DOTFILES_SCRIPTS/helpers/is_installed.sh
 
 install_brew_package() {
 	package=$1

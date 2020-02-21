@@ -1,9 +1,9 @@
 #!/bin/bash
 
-source $DOTFILES_SCRIPTS_DIR/helpers/dir.sh
-source $DOTFILES_SCRIPTS_DIR/helpers/echo.sh
-source $DOTFILES_SCRIPTS_DIR/helpers/is_installed.sh
-source $DOTFILES_SCRIPTS_DIR/install/install_brew_package.sh
+source $DOTFILES_SCRIPTS/helpers/dir.sh
+source $DOTFILES_SCRIPTS/helpers/echo.sh
+source $DOTFILES_SCRIPTS/helpers/is_installed.sh
+source $DOTFILES_SCRIPTS/install/install_brew_package.sh
 
 OH_MY_ZSG="Oh My Zsh"
 OH_MY_ZSH_DIR=~/.oh-my-zsh
@@ -22,11 +22,17 @@ install_oh_my_zsh() {
 
 	echo_check_if_installed "$POWERLEVEL10K"
 
-	if ! is_existing_dir "$POWERLEVEL10K"; then
+	if ! is_existing_dir "$POWERLEVEL10K_DIR"; then
 		echo_install "$POWERLEVEL10K"
 		git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 	else
 		echo_is_installed "$POWERLEVEL10K"
+	fi
+
+	if [ $SHELL != $(which zsh) ]; then
+		echo ""
+		echo_sm "Change default shell to zsh"
+		chsh -s $(which zsh)
 	fi
 
 	install_brew_package zsh-autosuggestions

@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"chakrounanas.turbo-console-log",
+	],
+	"unwantedRecommendations": []
+}

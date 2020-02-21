@@ -1,0 +1,13 @@
+[core]
+	excludesfile = ~/.gitignore_global
+	ignorecase = false
+[pager]
+	branch = false
+[push]
+	default = current
+[branch]
+	autosetupmerge = always
+[commit]
+	verbose = true
+[include]
+	path = .gituser
