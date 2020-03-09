@@ -65,6 +65,6 @@
     "gitlens.views.lineHistory.location": "scm",
     "gitlens.views.repositories.location": "scm",
     "gitlens.views.search.location": "scm",
-    "gitlens.views.repositories.files.layout": "list",
+    "gitlens.views.repositories.files.layout": "tree",
     "gitlens.views.search.files.layout": "list",
 }
