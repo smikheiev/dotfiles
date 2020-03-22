@@ -1,6 +1,6 @@
 {
     "debug.inlineValues": true,
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnEnter": "on",
     "editor.autoClosingBrackets": "always",
     "editor.autoClosingQuotes": "always",
     "editor.codeActionsOnSave": {
@@ -23,6 +23,7 @@
     ],
     "editor.snippetSuggestions": "top",
     "editor.suggest.maxVisibleSuggestions": 15,
+    "editor.tabCompletion": "on",
     "editor.tabSize": 2,
     "explorer.autoReveal": false,
     "explorer.confirmDelete": false,
