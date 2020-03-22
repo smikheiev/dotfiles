@@ -92,7 +92,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>351 288 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>45 0 710 667 0 0 1280 777 </string>
+	<string>45 96 850 667 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>355 0 612 777 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1142,7 +1142,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>100</integer>
+			<integer>120</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Boost</key>
@@ -1711,6 +1711,8 @@
 			<false/>
 			<key>Smart Cursor Color</key>
 			<false/>
+			<key>Space</key>
+			<integer>-1</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -1734,7 +1736,7 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string></string>
 		</dict>
@@ -1754,12 +1756,12 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1280, 800}}</string>
 		<key>topLeft</key>
-		<string>{208, 693}</string>
+		<string>{300, 700}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>4C98CAE2-E3E3-41F3-89DB-AC71893E866D</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>38</integer>
+	<integer>40</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2516,7 +2518,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-19T06:47:54Z</date>
+	<date>2020-03-22T19:59:25Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
