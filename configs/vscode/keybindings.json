@@ -350,11 +350,6 @@
 		"when": "textInputFocus"
 	},
 	{
-		"key": "shift+backspace",
-		"command": "-deleteLeft",
-		"when": "textInputFocus"
-	},
-	{
 		"key": "ctrl+alt+backspace",
 		"command": "deleteWordLeft",
 		"when": "textInputFocus && !editorReadonly"
@@ -1327,5 +1322,25 @@
 		"key": "right",
 		"command": "-gitlens.key.right",
 		"when": "gitlens:key:right"
+	},
+	{
+		"key": "cmd+n",
+		"command": "explorer.newFile",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "shift+cmd+n",
+		"command": "explorer.newFolder",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "pagedown",
+		"command": "workbench.action.compareEditor.nextChange",
+		"when": "textCompareEditorVisible"
+	},
+	{
+		"key": "pageup",
+		"command": "workbench.action.compareEditor.previousChange",
+		"when": "textCompareEditorVisible"
 	}
 ]
