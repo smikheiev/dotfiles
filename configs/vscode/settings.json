@@ -68,4 +68,5 @@
     "gitlens.views.search.location": "scm",
     "gitlens.views.repositories.files.layout": "tree",
     "gitlens.views.search.files.layout": "list",
+    "terminal.integrated.scrollback": 100000
 }
