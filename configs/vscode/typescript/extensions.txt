@@ -1,2 +1,0 @@
-dbaeumer.vscode-eslint
-ChakrounAnas.turbo-console-log

@@ -2,16 +2,10 @@
 
 source $DOTFILES_SCRIPTS/helpers/echo.sh
 
-SUBFOLDER=$1
-
 # get extensions that should be installed
 oifs=$IFS # save a copy of the input field separator (IFS) character list
 IFS=$'\n'
 should_be_installed=( $(< $DOTFILES_CONFIGS/vscode/extensions.txt) )
-
-if [ -n "$SUBFOLDER" ]; then
-	should_be_installed+=( $(< $DOTFILES_CONFIGS/vscode/$SUBFOLDER/extensions.txt) )
-fi
 IFS=$oifs # restore IFS
 
 # get already installed extensions

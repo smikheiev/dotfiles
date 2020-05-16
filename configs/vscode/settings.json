@@ -48,6 +48,7 @@
     "search.enableSearchEditorPreview": true,
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.scrollback": 100000,
     "workbench.commandPalette.history": 20,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.list.openMode": "doubleClick",
@@ -68,5 +69,13 @@
     "gitlens.views.search.location": "scm",
     "gitlens.views.repositories.files.layout": "tree",
     "gitlens.views.search.files.layout": "list",
-    "terminal.integrated.scrollback": 100000
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "turboConsoleLog.logMessagePrefix": "<<SM>>",
+    "turboConsoleLog.quote": "'",
+    // Language specific
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
 }

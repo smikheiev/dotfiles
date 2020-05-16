@@ -3,3 +3,5 @@ eriklynd.json-tools
 PKief.material-icon-theme
 eamodio.gitlens
 alefragnani.project-manager
+dbaeumer.vscode-eslint
+ChakrounAnas.turbo-console-log
